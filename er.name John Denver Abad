@@ -1,0 +1,62 @@
+[33mcommit 4d2b6e52f633423bce70a9703d0e8235ab9b9dd4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: carlkelvin8 <carlkelvin8@users.noreply.github.com>
+Date:   Thu Mar 12 22:21:15 2026 +0800
+
+    Fix storage link for Hostinger: Update photo URLs to use /public/storage path, create StorageController for file serving, update filesystems config
+
+[33mcommit a44f9736be38a8d19c1f1f259dc578cb26b6c715[m
+Author: carlkelvin8 <carlkelvin8@users.noreply.github.com>
+Date:   Tue Mar 3 10:41:41 2026 +0800
+
+    Improve UI: Remove gradient buttons, optimize reports page layout, add quick stats
+
+[33mcommit 72f1ef8aca796318676f0e6d4c894f0a9bad4a57[m
+Author: Carl Kelvin Manahan <carlmanahan8@outlook.com>
+Date:   Mon Feb 23 22:56:45 2026 +0800
+
+    Delete test_fix.php
+
+[33mcommit 28f58954b650e00c7da794542158f4bb04cc14eb[m
+Author: Carl Kelvin Manahan <carlmanahan8@outlook.com>
+Date:   Mon Feb 23 22:56:32 2026 +0800
+
+    Delete fix_photos.php
+
+[33mcommit d79013a42472037773f43cfd5665d8d2b9ee0505[m
+Author: Carl Kelvin Manahan <carlmanahan8@outlook.com>
+Date:   Mon Feb 23 22:56:18 2026 +0800
+
+    Delete fix_urls.php
+
+[33mcommit 35d450d4bbe01a0cb7a30d3a54f1e9d3dda2ee93[m
+Author: Carl Kelvin Manahan <carlmanahan8@outlook.com>
+Date:   Mon Feb 23 22:56:05 2026 +0800
+
+    Delete create_test_claim.php
+
+[33mcommit 9bcfc2efa9701acf625e80952b1bc094559628ea[m
+Author: carlkelvin8 <carlkelvin8@users.noreply.github.com>
+Date:   Mon Feb 23 22:53:53 2026 +0800
+
+    Remove documentation MD files
+
+[33mcommit a363bcfe405714fa6bd5b73c42c2f7a8542551f7[m
+Author: Carl Kelvin Manahan <carlmanahan8@outlook.com>
+Date:   Mon Feb 23 22:54:35 2026 +0800
+
+    Delete add_column.php
+
+[33mcommit bbdb430eee1e1d8fa5c4e333625b3b051585d5a0[m
+Author: carlkelvin8 <carlkelvin8@users.noreply.github.com>
+Date:   Mon Feb 23 22:50:44 2026 +0800
+
+    Initial commit: Lost & Found System with improved UI/UX
+    
+    - Modern white + black minimalist design
+    - Fixed navbar and sidebar navigation
+    - Confirmation modals for critical actions
+    - Improved authentication pages (login/register)
+    - Enhanced form layouts and spacing
+    - Mobile responsive design
+    - Professional dashboard and reports
+    - Complete UI/UX overhaul
