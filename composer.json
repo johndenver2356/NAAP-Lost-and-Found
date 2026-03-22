@@ -1,36 +1,55 @@
 {
-    "name": "carbonphp/carbon-doctrine-types",
-    "description": "Types to use Carbon in Doctrine",
+    "name": "doctrine/lexer",
+    "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
+    "license": "MIT",
     "type": "library",
     "keywords": [
-        "date",
-        "time",
-        "DateTime",
-        "Carbon",
-        "Doctrine"
+        "php",
+        "parser",
+        "lexer",
+        "annotations",
+        "docblock"
     ],
+    "authors": [
+        {
+            "name": "Guilherme Blanco",
+            "email": "guilhermeblanco@gmail.com"
+        },
+        {
+            "name": "Roman Borschel",
+            "email": "roman@code-factory.org"
+        },
+        {
+            "name": "Johannes Schmitt",
+            "email": "schmittjoh@gmail.com"
+        }
+    ],
+    "homepage": "https://www.doctrine-project.org/projects/lexer.html",
     "require": {
         "php": "^8.1"
     },
     "require-dev": {
-        "doctrine/dbal": "^4.0.0",
-        "nesbot/carbon": "^2.71.0 || ^3.0.0",
-        "phpunit/phpunit": "^10.3"
+        "doctrine/coding-standard": "^12",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.5",
+        "psalm/plugin-phpunit": "^0.18.3",
+        "vimeo/psalm": "^5.21"
     },
-    "conflict": {
-        "doctrine/dbal": "<4.0.0 || >=5.0.0"
-    },
-    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Carbon\\Doctrine\\": "src/Carbon/Doctrine/"
+            "Doctrine\\Common\\Lexer\\": "src"
         }
     },
-    "authors": [
-        {
-            "name": "KyleKatarn",
-            "email": "kylekatarnls@gmail.com"
+    "autoload-dev": {
+        "psr-4": {
+            "Doctrine\\Tests\\Common\\Lexer\\": "tests"
         }
-    ],
-    "minimum-stability": "dev"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    }
 }
